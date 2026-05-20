@@ -2,7 +2,7 @@
 
 [![Episode 1 video](../../images/work-iq/ep1.png)](https://aka.ms/iq-series/work-iq/episode1)
 
-📅 **May 26, 2026 at 9 AM PT** | 📺 [Watch the session](https://aka.ms/iq-series/work-iq/episode1) | 📂 [Try the cookbook](./cookbook/)
+📅 **June 2, 2026 at 9 AM PT** | 📺 [Watch the session](https://aka.ms/iq-series/work-iq/episode1) | 📂 [Try the cookbook](./cookbook/)
 
 
 ## 🎥 Session Summary

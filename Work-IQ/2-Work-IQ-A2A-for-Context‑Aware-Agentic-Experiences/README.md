@@ -2,7 +2,7 @@
 
 [![Episode 2 video](../../images/work-iq/ep2.png)](https://aka.ms/iq-series/work-iq/episode2)
 
-📅 **May 27, 2026 at 9 AM PT** | 📺 [Watch the session](https://aka.ms/iq-series/work-iq/episode2) | 📂 [Try the cookbook](./cookbook/)
+📅 **June 2, 2026 at 9 AM PT** | 📺 [Watch the session](https://aka.ms/iq-series/work-iq/episode2) | 📂 [Try the lab](./lab/)
 
 
 ## 🎥 Session Summary
@@ -27,7 +27,7 @@ A visual summary of key takeaways by Tomomi Imura, showing how A2A fits in the W
 
 ## � Try the Cookbook
 
-Ready to get hands-on? Head to the [Episode 2 Cookbook](./cookbook/) for prerequisites, deployment instructions, and a step-by-step Jupyter notebook.
+Ready to get hands-on? Head to the [Episode 2 lab](./lab/) for prerequisites, deployment instructions, and a step-by-step guidance.
 
 ## 🔗 Learn More
 

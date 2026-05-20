@@ -1,10 +1,10 @@
-# Lab 01: The Intelligence Layer Behind Copilot & Agents
+# Lab 01: Tooling with MCP & Copilot CLI
 
 ## Start Work IQ CLI
 
-You can run the following scripts directly from a terminal session, for example using the PowerShell terminal or the Bash terminal, depending on the platform where you are running this cookbook.
+You can run the following scripts directly from this cookbook, or you can open a terminal session, for example using the PowerShell terminal or the Bash terminal, depending on the platform where you are running this cookbook.
 
-Run the following command, to accept the end user license agreement, if you haven't done it yet:
+Run the following command, to accept the end user license agreement:
 
 ```
 workiq accept-eula
@@ -127,4 +127,4 @@ As you can see, regardless if you use the Work IQ CLI, Work IQ MCP tools, or low
 
 ## Where to go next
 
-- **Explore the IQ Series** — Continue learning with [Episode 2: A2A for Context‑Aware, Agentic Experiences](../../2-Work-IQ-A2A-for-Context‑Aware-Agentic-Experiences/) and [Episode 3: Tooling with MCP & Copilot CLI](../../3-Work-IQ-Tooling-with-MCP-and-Copilot-CLI/).
+- **Explore the IQ Series** — Continue learning with [Episode 2: Work IQ: A2A for Context‑Aware, Agentic Experiences](../../2-Work-IQ-A2A-for-Context‑Aware-Agentic-Experiences/) and [Episode 3: Tooling with MCP & Copilot CLI](../../3-Work-IQ-Tooling-with-MCP-and-Copilot-CLI/).

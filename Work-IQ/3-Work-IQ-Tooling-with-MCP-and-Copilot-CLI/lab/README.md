@@ -1,14 +1,14 @@
-# Episode 1 Lab: The Intelligence Layer Behind Copilot & Agents
+# Episode 3 Lab: Tooling with MCP & Copilot CLI
 
-This folder contains the hands-on lab for Episode 1 of The Work IQ Series.
+This folder contains the hands-on lab for Episode 3 of The Work IQ Series.
 
 ## 📋 Prerequisites
 
 - **Microsoft 365 Tenant** with a **Microsoft 365 Copilot** license
-- **Node.js** 22 or later installed
 - **GitHub Copilot CLI** installed
 - **Work IQ** enabled in your target tenant with **Administrative consent** for the **Work IQ application**
 - **Work IQ CLI** installed
+- **Copilot Studio** available and activated in your tenant
 
 ## 🛠️ Installing GitHub Copilot CLI
 
@@ -219,14 +219,13 @@ For more information, see the [Work IQ CLI documentation](https://learn.microsof
 
 ## 📓 Lab Instructions
 
-The [**Work IQ Lab for Episode 01**](./work-iq-lab01.md) walks you through the basic capabilities of Work IQ, step by step:
+The [**Work IQ Lab for Episode 03**](./work-iq-lab03.md) walks you through the basic capabilities of Work IQ, step by step:
 
-1. Asking a prompt via Work IQ CLI
-1. Asking a prompt via GitHub Copilot CLI
-1. Making a REST request to Work IQ API
+1. Asking a prompt via GitHub Copilot CLI to rely on Work IQ MCP
+1. Using the Work IQ MCP server from an Agent in Microsoft Copilot Studio
 
 ## Additional Resources
 
-- [Episode 1 README](../README.md)
+- [Episode 3 README](../README.md)
 - [Work IQ overview](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/work-iq)
 - [Copilot Dev Camp - Work IQ](https://microsoft.github.io/copilot-camp/pages/work-iq/)

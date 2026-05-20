@@ -1,112 +1,101 @@
-# Episode 1 Lab: The Intelligence Layer Behind Copilot & Agents
+# Episode 2 Lab: A2A for Context‑Aware, Agentic Experiences
 
-This folder contains the hands-on lab for Episode 1 of The Work IQ Series.
+This folder contains the hands-on lab for Episode 2 of The Work IQ Series.
 
 ## 📋 Prerequisites
 
 - **Microsoft 365 Tenant** with a **Microsoft 365 Copilot** license
 - **Node.js** 22 or later installed
-- **GitHub Copilot CLI** installed
+- **Python 3.10+** installed
+- **A2A Inspector** downloaded and running on your environment
 - **Work IQ** enabled in your target tenant with **Administrative consent** for the **Work IQ application**
 - **Work IQ CLI** installed
 
-## 🛠️ Installing GitHub Copilot CLI
+## 🛠️ Downloading and running A2A Inspector
 
-GitHub Copilot CLI is available with all Copilot plans and provides a command-line interface to interact with GitHub Copilot. Choose the installation method that works best for your platform:
+**A2A Inspector** is an open-source, web-based tool for visualizing, debugging, and validating Agent-to-Agent (A2A) protocol interactions. It helps you inspect agent conversations, message flows, and protocol details in real time, making it easier to develop and troubleshoot agentic applications.
+
+The official GitHub repository is: [https://github.com/a2aproject/a2a-inspector](https://github.com/a2aproject/a2a-inspector)
+
+---
 
 ### Prerequisites
 
-Before installing GitHub Copilot CLI, ensure you have:
+- Python 3.10+
+- [uv](https://github.com/astral-sh/uv) (for Python dependency management)
+- Node.js and npm
 
-- An active GitHub Copilot subscription
-- Node.js 22 or later (for npm installation)
-- PowerShell v6 or higher (on Windows)
+---
 
-> **Note:** If you have access to GitHub Copilot through your organization, make sure your organization has enabled Copilot CLI in their settings.
+### 1. Clone the repository
 
-### Installation Methods
-
-#### Option 1: Using npm (All Platforms)
-
-```bash
-npm install -g @github/copilot
+```sh
+git clone https://github.com/a2aproject/a2a-inspector.git
+cd a2a-inspector
 ```
 
-If you have `ignore-scripts=true` in your `~/.npmrc` file, use:
+### 2. Install dependencies
 
-```bash
-npm_config_ignore_scripts=false npm install -g @github/copilot
+**Backend (Python):**
+
+From the project root:
+```sh
+uv sync
 ```
 
-To install the prerelease version:
+**Frontend (Node.js):**
 
-```bash
-npm install -g @github/copilot@prerelease
+```sh
+cd frontend
+npm install
+cd ..
 ```
 
-#### Option 2: Using WinGet (Windows)
+---
 
-```powershell
-winget install GitHub.Copilot
+### 3. Run the application
+
+You can run A2A Inspector either locally (recommended for development) or using Docker.
+
+#### Option 1: Run Locally (with live reload)
+
+**Recommended:** Use the provided script to start both frontend and backend with live reload:
+
+```sh
+chmod +x scripts/run.sh   # (first time only)
+bash scripts/run.sh
 ```
 
-To install the prerelease version:
+Or, run manually in two terminals:
 
-```powershell
-winget install GitHub.Copilot.Prerelease
+**Terminal 1 (Frontend):**
+```sh
+cd frontend
+npm run build -- --watch
 ```
 
-#### Option 3: Using Homebrew (macOS and Linux)
-
-```bash
-brew install copilot-cli
+**Terminal 2 (Backend):**
+```sh
+cd backend
+uv run app.py
 ```
 
-To install the prerelease version:
+Once both are running, open your browser at: http://127.0.0.1:5001
 
-```bash
-brew install copilot-cli@prerelease
+#### Option 2: Run with Docker
+
+If you prefer Docker, from the project root:
+
+```sh
+docker build -t a2a-inspector .
+docker run -d -p 8080:8080 a2a-inspector
 ```
 
-#### Option 4: Using Install Script (macOS and Linux)
+Then open your browser at: http://127.0.0.1:8080
 
-```bash
-curl -fsSL https://gh.io/copilot-install | bash
-```
+---
 
-Or using wget:
-
-```bash
-wget -qO- https://gh.io/copilot-install | bash
-```
-
-To install to a custom directory, set the `PREFIX` environment variable:
-
-```bash
-curl -fsSL https://gh.io/copilot-install | PREFIX="$HOME/custom" bash
-```
-
-#### Option 5: Download from GitHub
-
-Download the executable directly from the [copilot-cli repository](https://github.com/github/copilot-cli/releases/). Then unpack and run the executable for your platform.
-
-### Authentication
-
-On first launch, you'll be prompted to authenticate. Use the `/login` slash command and follow the on-screen instructions to log in with your GitHub account.
-
-Alternatively, you can authenticate using a fine-grained personal access token with the "Copilot Requests" permission by exporting it as an environment variable:
-
-```bash
-export COPILOT_GITHUB_TOKEN=<your_token>
-# or
-export GH_TOKEN=<your_token>
-# or
-export GITHUB_TOKEN=<your_token>
-```
-
-### Learn More
-
-For a comprehensive beginner's guide to using GitHub Copilot CLI, visit the [GitHub Copilot CLI for Beginners](https://github.com/github/copilot-cli-for-beginners/) repository.
+For more details and troubleshooting, see the [A2A Inspector GitHub page](https://github.com/a2aproject/a2a-inspector).
 
 ## ⚙️ Enabling Work IQ in your tenant
 
@@ -219,14 +208,13 @@ For more information, see the [Work IQ CLI documentation](https://learn.microsof
 
 ## 📓 Lab Instructions
 
-The [**Work IQ Lab for Episode 01**](./work-iq-lab01.md) walks you through the basic capabilities of Work IQ, step by step:
+The [**Work IQ Lab for Episode 02**](./work-iq-lab02.md) walks you through the basic capabilities of Work IQ, step by step:
 
-1. Asking a prompt via Work IQ CLI
-1. Asking a prompt via GitHub Copilot CLI
-1. Making a REST request to Work IQ API
+1. Asking a prompt via Work IQ A2A
+1. Asking a second prompt via Work IQ A2A within the same conversation context
 
 ## Additional Resources
 
-- [Episode 1 README](../README.md)
+- [Episode 2 README](../README.md)
 - [Work IQ overview](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/work-iq)
 - [Copilot Dev Camp - Work IQ](https://microsoft.github.io/copilot-camp/pages/work-iq/)

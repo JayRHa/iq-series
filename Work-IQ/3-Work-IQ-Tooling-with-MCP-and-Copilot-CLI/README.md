@@ -2,7 +2,7 @@
 
 [![Episode 3 video](../../images/work-iq/ep3.png)](https://aka.ms/iq-series/work-iq/episode3)
 
-📅 **May 28, 2026 at 9 AM PT** | 📺 [Watch the session](https://aka.ms/iq-series/work-iq/episode3) | 📂 [Try the cookbook](./cookbook/)
+📅 **June 2, 2026 at 9 AM PT** | 📺 [Watch the session](https://aka.ms/iq-series/work-iq/episode3) | 📂 [Try the lab](./lab/)
 
 ## 🎥 Session Summary
 
@@ -26,7 +26,7 @@ A visual summary of key takeaways by Tomomi Imura, showing how Work IQ CLI and M
 
 ## � Try the Cookbook
 
-Ready to get hands-on? Head to the [Episode 3 Cookbook](./cookbook/) for prerequisites, deployment instructions, and a step-by-step Jupyter notebook.
+Ready to get hands-on? Head to the [Episode 3 lab](./lab/) for prerequisites, deployment instructions, and a step-by-step guidance.
 
 ## 🔗 Learn More
 

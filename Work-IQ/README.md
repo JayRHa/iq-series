@@ -85,4 +85,4 @@ Each episode's cookbook lives in its `cookbook/` folder and includes prerequisit
 
 - 📖 [Work IQ overview](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/work-iq)
 - 📚 [Copilot Dev Camp - Work IQ](https://microsoft.github.io/copilot-camp/pages/work-iq/)
-- 💬 Ask your questions on our [Discord channel](https://discord.gg/REmjGvvFpW)
+- 💬 Ask your questions in our [Discussions](https://aka.ms/iq/discussions)

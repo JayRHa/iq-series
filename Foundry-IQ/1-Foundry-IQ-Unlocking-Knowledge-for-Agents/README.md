@@ -34,6 +34,6 @@ Ready to get hands-on? Head to the [Episode 1 Cookbook](./cookbook/) for prerequ
 
 ## 💬 Community
 
-- Ask your questions on our [Discord channel](https://discord.gg/REmjGvvFpW)
+- Ask your questions in our [Discussions](https://aka.ms/iq/discussions)
 
 ### 🚀 Next Up: Continue to [Episode 2](../2-Foundry-IQ-Building-the-Data-Pipeline-with-Knowledge-Sources/) for the next step—Building the Data Pipeline with Knowledge Sources!

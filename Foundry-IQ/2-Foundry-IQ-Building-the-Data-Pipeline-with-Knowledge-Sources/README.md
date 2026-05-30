@@ -34,6 +34,6 @@ Ready to get hands-on? Head to the [Episode 2 Cookbook](./cookbook/) for prerequ
 
 ## 💬 Community
 
-- Ask your questions on our [Discord channel](https://discord.gg/REmjGvvFpW)
+- Ask your questions in our [Discussions](https://aka.ms/iq/discussions)
 
 ### 🚀 Next Up: Continue to [Episode 3](../3-Foundry-IQ-Querying-the-Multi-Source-AI-Knowledge-Bases/) for the next step—Querying the Multi-Source AI Knowledge Bases!

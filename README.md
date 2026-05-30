@@ -69,5 +69,5 @@ Completed all three Work IQ labs? You can now request your community badge.
 We'd love to see you contributing to our repo and engaging with the experts with your questions!
 
 - 🤔 Do you have suggestions or have you found spelling or code errors? [Raise an issue](https://github.com/microsoft/iq-series/issues) or [Create a pull request](https://github.com/microsoft/iq-series/pulls).
-- 🚀 If you get stuck or have any questions about Microsoft IQ, join our [Discord](https://aka.ms/iq-series/discord).
+- 🚀 If you get stuck or have any questions about Microsoft IQ, ask them in our [Discussions](https://aka.ms/iq/discussions).
 - Check out [Contributing](./CONTRIBUTING.md) & [Trademarks](./TRADEMARKS.md) details.

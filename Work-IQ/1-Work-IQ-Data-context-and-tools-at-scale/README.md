@@ -36,6 +36,6 @@ Ready to get hands-on? Head to the [Episode 1 cookbook](./cookbook/) for prerequ
 
 ## 💬 Community
 
-- Ask your questions on our [Discord channel](https://discord.gg/REmjGvvFpW)
+- Ask your questions in our [Discussions](https://aka.ms/iq/discussions)
 
 ### 🚀 Next Up: Continue to [Episode 2](../2-Work-IQ-A2A-for-Context‑Aware-Agentic-Experiences/) for the next step—A2A for Context‑Aware, Agentic Experiences!

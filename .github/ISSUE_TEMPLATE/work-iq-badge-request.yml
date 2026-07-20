@@ -1,8 +1,8 @@
 name: 'Work IQ Badge Request'
-description: "Submit this issue to acknowledge completion of all 3 Work IQ episode labs."
+description: "Submit this issue to acknowledge completion of both Work IQ episode labs."
 title: "<First Name Last Name> Work IQ Badge Request"
 labels:
-  - work-iq-badge
+  - Work IQ - Badge Request
 body:
   - type: markdown
     attributes:
@@ -12,9 +12,9 @@ body:
   - type: checkboxes
     attributes:
       label: Curriculum Completion Validation
-      description: Please check this to confirm that you have completed all 3 Work IQ episode labs.
+      description: Please check this to confirm that you have completed both Work IQ episode labs.
       options:
-        - label: I verify that I have completed all 3 Work IQ episode labs end-to-end.
+        - label: I verify that I have completed both Work IQ episode labs end-to-end.
           required: true
 
   - type: markdown
@@ -24,8 +24,8 @@ body:
         ### Episode completion proof
 
         For each episode: fork the repo and run all the labs. Paste the direct link to your forked repo. Screenshots must show:
-          - Lab 01: Anonymized output of the REST API request in Graph Explorer
-          - Lab 02: A screenshot of the A2A inspector with anonymized data
+          - Lab 01: Anonymized output of a successful Work IQ REST API request and response
+          - Lab 02: Anonymized output of a successful Work IQ A2A quickstart exchange
 
   - type: textarea
     id: repo_fork
@@ -39,9 +39,9 @@ body:
   - type: checkboxes
     attributes:
       label: "Ep 1 — Data, context, and tools at scale"
-      description: Please upload a screenshot of the anonymized output of the REST API request in Graph Explorer.
+      description: Please upload a screenshot of an anonymized Work IQ REST API request and response.
       options:
-        - label: I verify that I have uploaded a screenshot of my Episode 1 lab output with the anonymized output of the REST API request in Graph Explorer.
+        - label: I verify that I have uploaded a screenshot of my Episode 1 lab output with the anonymized REST API request and response.
           required: true
 
   - type: textarea
@@ -55,9 +55,9 @@ body:
   - type: checkboxes
     attributes:
       label: "Ep 2 — A2A for Context-Aware, Agentic Experiences"
-      description: Please upload a screenshot of the A2A inspector with anonymized data.
+      description: Please upload a screenshot of a successful A2A quickstart exchange with anonymized data.
       options:
-        - label: I verify that I have uploaded a screenshot of the A2A inspector with anonymized data.
+        - label: I verify that I have uploaded a screenshot of a successful A2A quickstart exchange with anonymized data.
           required: true
 
   - type: textarea
@@ -77,7 +77,7 @@ body:
     attributes:
       label: Episode Insights & Key Takeaways
       description: |
-        To verify your engagement with the series [video content](https://aka.ms/iq-series/episodes), please provide one brief, specific technical takeaway or "aha!" moment from each of the three Work IQ episodes.
+        To verify your engagement with the series [video content](https://aka.ms/iq-series/episodes), please provide one brief, specific technical takeaway or "aha!" moment from each of the two Work IQ episodes.
       placeholder: |
         Episode 1: [Your insight]
         Episode 2: [Your insight]

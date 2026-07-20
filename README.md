@@ -54,7 +54,7 @@ Completed all three Foundry IQ cookbooks? You can now request your community bad
 
 <img src="./images/work-iq/workiq-badge.png" alt="Work IQ Badge" width="150" align="left" style="margin-right: 20px; margin-bottom: 10px;" hspace="20" vspace="10" />
 
-Completed both Work IQ labs? You can now request your community badge.
+Completed all three Work IQ labs? You can now request your community badge.
 
 1. Fork this repo and save your lab outputs as screenshot for each episode. Details about the required screenshots are provided in the following badge request issue form
 1. Submit a [badge request issue](https://github.com/microsoft/iq-series/issues/new?template=work-iq-badge-request.yml)

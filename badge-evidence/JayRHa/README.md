@@ -1,8 +1,10 @@
 # IQ Series badge evidence — JayRHa
 
 These screenshots document the completed IQ Series labs in the
-ModernDevMgmt tenant. Work IQ responses are anonymized and do not contain
-access tokens, conversation identifiers, email addresses, or user names.
+ModernDevMgmt tenant. The Foundry IQ screenshots were captured directly
+from the executed notebooks in JupyterLab. Work IQ responses are anonymized
+and do not contain access tokens, conversation identifiers, email addresses,
+or user names.
 
 ## Foundry IQ
 

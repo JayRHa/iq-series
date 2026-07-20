@@ -9,11 +9,11 @@ or user names.
 ## Foundry IQ
 
 - [Episode 1 notebook](../../Foundry-IQ/1-Foundry-IQ-Unlocking-Knowledge-for-Agents/cookbook/foundry-iq-cookbook.ipynb)
-- [Episode 1 final output](foundry-iq-episode-01-final-output.png)
+- [Episode 1 final output in JupyterLab](foundry-iq-episode-01-jupyter-final-output.png)
 - [Episode 2 notebook](../../Foundry-IQ/2-Foundry-IQ-Building-the-Data-Pipeline-with-Knowledge-Sources/cookbook/foundry-iq-cookbook.ipynb)
-- [Episode 2 final output](foundry-iq-episode-02-final-output.png)
+- [Episode 2 final output in JupyterLab](foundry-iq-episode-02-jupyter-final-output.png)
 - [Episode 3 notebook](../../Foundry-IQ/3-Foundry-IQ-Querying-the-Multi-Source-AI-Knowledge-Bases/cookbook/foundry-iq-cookbook.ipynb)
-- [Episode 3 final output](foundry-iq-episode-03-final-output.png)
+- [Episode 3 final output in JupyterLab](foundry-iq-episode-03-jupyter-final-output.png)
 
 ## Work IQ
 

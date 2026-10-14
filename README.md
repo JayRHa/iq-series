@@ -1,3 +1,27 @@
+<!-- jr-brand:start -->
+<p align="center">
+  <a href="https://jannikreinhard.com/">
+    <img src="https://raw.githubusercontent.com/JayRHa/.github/main/assets/readme/brand-header.png" alt="Jannik Reinhard — I help enterprises ship secure AI agents" width="100%">
+  </a>
+</p>
+<p align="center">
+  <a href="https://jannikreinhard.com/">Website</a> ·
+  <a href="https://www.linkedin.com/in/jannik-r/">LinkedIn</a> ·
+  <a href="https://x.com/jannik_reinhard">X</a> ·
+  <a href="https://www.youtube.com/@jannikreinhard">YouTube</a>
+</p>
+<!-- jr-brand:end -->
+
+# Microsoft IQ Series
+
+The IQ Series is a hands-on learning experience for Microsoft IQ: Microsoft's unified intelligence layer for the enterprise, spanning Foundry IQ, Work IQ, and Fabric IQ. The series includes video episodes, Jupyter notebooks, and Azure deployment templates.
+
+This is a fork. The original project documentation and its attribution are preserved below.
+
+Upstream: https://github.com/microsoft/iq-series
+
+## Upstream documentation
+
 <h1 align="center">The Microsoft IQ Series</h1>
 
 <p align="center">
@@ -71,3 +95,9 @@ We'd love to see you contributing to our repo and engaging with the experts with
 - 🤔 Do you have suggestions or have you found spelling or code errors? [Raise an issue](https://github.com/microsoft/iq-series/issues) or [Create a pull request](https://github.com/microsoft/iq-series/pulls).
 - 🚀 If you get stuck or have any questions about Microsoft IQ, ask them in our [Discussions](https://aka.ms/iq/discussions).
 - Check out [Contributing](./CONTRIBUTING.md) & [Trademarks](./TRADEMARKS.md) details.
+
+<!-- jr-brand-footer:start -->
+---
+
+[Articles and guides](https://jannikreinhard.com/) · [Repository index](https://github.com/JayRHa/.github/blob/main/REPOSITORIES.md)
+<!-- jr-brand-footer:end -->
